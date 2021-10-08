@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4aeec2910f2d9384eb852d45ab5cfa3e, type: 3}
+  m_Name: LifePotion
+  m_EditorClassIdentifier: 
+  ItemName: Health Potion
+  ItemDescription: It regenerates a little bit of health
+  ItemImage: {fileID: -8485995304713028149, guid: 25070f11aa5244a47a18092ba92d08c6,
+    type: 3}
+  NumberHeld: 9
+  Usable: 1
+  Unique: 0
+  ThisEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 3, guid: e4f43f8d917ca8b4e8c747847c04edcf, type: 3}
+        m_MethodName: UseHealthPotion
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 4900000, guid: fade42e8bc714b018fac513c043d323b, type: 3}
+        m_MethodName: DecreaseAmount
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2

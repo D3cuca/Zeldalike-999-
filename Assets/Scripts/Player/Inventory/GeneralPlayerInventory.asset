@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0637c844a854869429032ecf5bc0b7d5, type: 3}
+  m_Name: GeneralPlayerInventory
+  m_EditorClassIdentifier: 
+  LifePotion: {fileID: -8485995304713028149, guid: 25070f11aa5244a47a18092ba92d08c6,
+    type: 3}
+  ManaPotion: {fileID: 8927841991104152703, guid: 25070f11aa5244a47a18092ba92d08c6,
+    type: 3}
+  MyInventory:
+  - {fileID: 11400000, guid: cbe92b1c74229644eb13483cf03b25e3, type: 2}
+  - {fileID: 11400000, guid: 645bdcf9fb11ca241a19a561cae44225, type: 2}

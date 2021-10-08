@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 813b48ba56d16f248a3f65491ab9e667, type: 3}
+  m_Name: SilverGauntlet
+  m_EditorClassIdentifier: 
+  ItemName: Silver Gauntlet
+  ItemDescription: A better version of the Bronze Gauntlet. You can now move with
+    your shield up.
+  ItemImage: {fileID: -1771576757893102420, guid: d2a2f3490c1126a408136a3936390eee,
+    type: 3}
+  Obtained: 0
+  SetW: 0
+  SetX: 0
+  SetC: 0
+  SetV: 0
+  PassiveItem: 1
+  ThisEvent:
+    m_PersistentCalls:
+      m_Calls: []

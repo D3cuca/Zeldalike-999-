@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Attack
+  - Others
+  - Breakable
+  - Room
+  - Defense
+  - IceDefense
+  - Collision
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Enemy
+  - EnemyProjectile
+  - Attack
+  - PlayerProjectile
+  - Room
+  - MiniMap
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - DialogueBox
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 1250197471
+    locked: 0
+  - name: Collision
+    uniqueID: 2493580587
+    locked: 0
+  - name: Sign
+    uniqueID: 2330710609
+    locked: 0
+  - name: Player
+    uniqueID: 2198544359
+    locked: 0
+  - name: Weather
+    uniqueID: 3128652419
+    locked: 0
